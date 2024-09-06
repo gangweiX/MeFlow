@@ -5,7 +5,7 @@
 CUDA_VISIBLE_DEVICES=0 python main.py \
 --eval \
 --val_dataset kitti \
---resume pretrained/flow1d_things-fd4bee1f.pth \
+--resume ./pretrained_models/things.pth \
 --val_iters 24
 
 
@@ -13,7 +13,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 CUDA_VISIBLE_DEVICES=0 python main.py \
 --eval \
 --val_dataset sintel \
---resume pretrained/flow1d_things-fd4bee1f.pth \
+--resume ./pretrained_models/things.pth \
 --val_iters 32
 
 
